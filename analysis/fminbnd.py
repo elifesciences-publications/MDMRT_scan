@@ -46,7 +46,7 @@ def fminbnd(
     # check for infeasible starting guesses.
     x0u = x0
     k = 0
-    for i in xrange(n):
+    for i in range(n):
 
         # lower bound only
         if params['BoundClass'][i] == 1:
@@ -134,7 +134,7 @@ def xtransform(x, params):
     # k allows some variables to be fixed, thus dropped from the optimization
     k = 0
 
-    for i in xrange(params['n']):
+    for i in range(params['n']):
         # lower bound only
         if params['BoundClass'][i] == 1:
             xtrans[i] = params['LB'][i] + x[k] ** 2
