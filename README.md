@@ -1,6 +1,9 @@
 # MDMRT_scan
 This repository contains task code and analysis code for the MDMRT_scan project.
 
+### This code is associated with the paper from Bakkour et al., "The hippocampus supports deliberation during value-based decisions". eLife, 2019. http://dx.doi.org/10.7554/eLife.46080
+
+
 
 MIT License
 
